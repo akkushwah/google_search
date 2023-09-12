@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    font-family: arial,sans-serif;;
+}
+.advancelogo
+{
+    width:76px;
+    margin:20px;
+    float:left;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    }
+li{
+    float:right;
+    
+}
+li a {
+    padding:20px;
+    text-decoration:none;
+    color:#4f4f4f;
+    font-size:14px;
+    display: block;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.head {
+    margin:34px 48px;           
+}
+.heading 
+{
+    color:#d93e33;
+    font-size: 20px; 
+    font-weight:inherit;
+
+        
+}
+hr{
+    border:none;
+    border-bottom: 1px solid #ebebeb;
+}
+.form
+{
+    margin:35px 35px;
+}
+.top-label
+{
+    color:rgb(38, 35, 35);
+    
+}
+.lab{
+    color:#222;
+    font-size: 13px;
+    float:left;
+    
+}
+table{
+    margin:15px 36px;
+    
+    
+}
+table tr td{
+    padding:12px;
+    /* width:50%; */
+}
+input[type=text]{
+    border-radius: 1px;
+    border:1px solid #d9d9d9;
+    border-top:1px solid #c0c0c0;
+    font-size: 13px;
+    min-height:25px;
+    min-width: 167px;
+    width:100%;
+    padding:1px 8px;
+}
+input:focus{
+    outline:1px solid #6ba5f5;
+    border-top:1px solid rgb(181, 178, 178);
+}
+
+button{
+    background-color: #4d90fe;;;
+    color:#fff;
+    border-radius:2px;
+    font-size:11px;
+    font-weight:bold;
+    text-align: left;
+    border:1px solid #3079ed;
+    outline:none;
+    margin:10px;
+    padding:8px 15px;
+    
+}
+.button:hover{
+    background-color:#4787ed;
+    border:1px solid #1368ef;
+}

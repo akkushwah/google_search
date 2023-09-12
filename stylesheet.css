@@ -1,0 +1,111 @@
+*{
+margin: 0;
+padding:0;
+}
+body{
+    font-family: arial,sans-serif;;
+}
+ul {
+    list-style-type: none;
+    overflow: hidden;
+    }
+li{
+    float:right;
+    
+}
+li a {
+    padding:20px;
+    text-decoration:none;
+    color:#4f4f4f;
+    font-size:14px;
+    display: block;
+}
+li a:hover{
+    text-decoration: underline;
+}
+div{
+    text-align: center;
+}
+.logo {
+    margin-top:100px;
+    margin-bottom: 25px;
+}
+.images{
+    color:rgb(108, 108, 247);
+    font-family:Arial, Helvetica, sans-serif;
+    position: relative;
+    right:59px;
+    bottom:2px;
+}
+.bar
+{
+    margin:0 auto;
+    width: 550px;
+    border:1px solid #dcdcdc;
+    border-radius: 30px;
+    
+}
+.bar:hover
+{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+}
+.bar:focus-within{
+    box-shadow: 1px 1px 8px 1px #dcdcdc;
+    outline: none;
+}
+.searchbar
+{
+    width:450px;
+    height:40px;
+    font-size:16px;
+    color:rgb(72, 72, 72); 
+    border:none;
+    outline: none;
+
+}
+.voice
+{
+    height:32px;
+    position: relative;
+    right:4px;
+    top:8px;
+}
+.fa-search{
+    color:rgb(146, 143, 143);
+    position: relative;
+    left:4px;
+    bottom:1px;
+    padding:8px;
+}
+
+.buttons
+{
+    margin-top:20px;
+
+}
+.button {
+    background-color: #f8f9fa;;
+    color:#707070;
+    border:none;
+    outline:none;
+    margin:10px;
+    font-size:15px;
+    padding:10px 10px;
+    border-radius:5px;
+    cursor: pointer;
+
+}
+.button:hover{
+    border:1px solid #c8c8c8;
+    color: #808080; 
+    box-shadow: 1px 1px 8px 2px#f8f9fa;  
+    
+    
+}
+.button:focus
+{
+    border:1px solid #4885ed;
+}     
+
+
+
